@@ -1,0 +1,8 @@
+char=input('Enter String')
+reverse = char[: : -1]
+
+if  char == reverse:
+  print('Yes it is Palindrome')
+
+else:
+  print('It is not Palindrome')
